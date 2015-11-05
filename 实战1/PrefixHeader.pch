@@ -1,0 +1,17 @@
+//
+//  PrefixHeader.pch
+//  实战1
+//
+//  Created by apple on 15/10/30.
+//  Copyright © 2015年 apple. All rights reserved.
+//
+
+#ifndef __OBJC__
+#define PrefixHeader_pch
+
+#import "UIView+Frame.h"
+#import "UIImage+Image.h"
+
+#define SZKeyWindow [UIApplication sharedApplication].keyWindow
+
+#endif /* PrefixHeader_pch */
